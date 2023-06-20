@@ -1,4 +1,4 @@
-// Generated from EDTFLevel1.g4 by ANTLR 4.9
+// Generated from EDTFLevel1.g4 by ANTLR 4.13.0
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -9,6 +9,7 @@ import org.antlr.v4.runtime.tree.TerminalNode;
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
+@SuppressWarnings("CheckReturnValue")
 public class EDTFLevel1BaseListener implements EDTFLevel1Listener {
 	/**
 	 * {@inheritDoc}
@@ -94,6 +95,18 @@ public class EDTFLevel1BaseListener implements EDTFLevel1Listener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitJulianDate(EDTFLevel1Parser.JulianDateContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterJulianDay(EDTFLevel1Parser.JulianDayContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitJulianDay(EDTFLevel1Parser.JulianDayContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

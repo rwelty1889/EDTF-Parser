@@ -1,4 +1,4 @@
-// Generated from EDTFLevel1.g4 by ANTLR 4.9
+// Generated from EDTFLevel1.g4 by ANTLR 4.13.0
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -76,6 +76,16 @@ public interface EDTFLevel1Listener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitJulianDate(EDTFLevel1Parser.JulianDateContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link EDTFLevel1Parser#julianDay}.
+	 * @param ctx the parse tree
+	 */
+	void enterJulianDay(EDTFLevel1Parser.JulianDayContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link EDTFLevel1Parser#julianDay}.
+	 * @param ctx the parse tree
+	 */
+	void exitJulianDay(EDTFLevel1Parser.JulianDayContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link EDTFLevel1Parser#dateSpecification}.
 	 * @param ctx the parse tree
