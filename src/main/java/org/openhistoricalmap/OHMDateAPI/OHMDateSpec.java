@@ -53,4 +53,6 @@ public interface OHMDateSpec {
      */
     public ArrayList<OHMDateTime> getDates();
     
+//    public static DataExtractor getExtractor( String dateString);
+    
 }
